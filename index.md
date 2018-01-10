@@ -4,7 +4,7 @@ ChrisJobling, 3 April 2007 (created 21 February 2007)
 
 This is an outline of the topics to be covered in this final part of the module EG-146: Communications for the Internet.
 
-* [An Introduction to Web Content](WebTechnology.html)
+* [An Introduction to Web Content](WebContent.html)
 * [Web Page Building Blocks and Web Site
   Design](iBenefitsOfWebStandards.ppt)
 * [Basic (X)HTML, images and links](basic-html.html)
