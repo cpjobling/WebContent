@@ -1,0 +1,5 @@
+h1, h2 {font-family: "Arial Black", "Helvetica Bold", sans-serif;font-weight: normal}
+p {font-family: "Verdana", "Helvetica", sans-serif}
+.emph {font-style: italic; font-weight:bold}
+
+a:link, a:hover {font-weight:bold}

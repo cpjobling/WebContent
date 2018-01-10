@@ -1,0 +1,6 @@
+#choices label {position:absolute;padding-top:.2em;left:20px}
+
+#size {font-size:90%}
+input {margin-left:9em}
+input +input {margin-left:1em}
+br+input {margin-left:9em}

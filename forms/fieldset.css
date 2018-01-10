@@ -1,0 +1,9 @@
+#form {font-family:"Trebuchet MS", Verdana, sans-serif;width:25em}
+h2 {margin:0 0 0 0;padding:0}
+p {margin:0 0 1em 0;padding:0;font-size:90%}
+fieldset {margin-bottom:1em;width:24em;padding-top:1.5em}
+
+#personal {background:#F3B4F5;border:outset #f3b4f5}
+
+#choices {background:#F5D9B4;border:outset #f5d9b4}
+#suggestions {background:#B4F5DA;border:outset #b4f5da}

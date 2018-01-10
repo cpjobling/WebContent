@@ -1,0 +1,19 @@
+body {margin:0}
+
+#wrap {margin:20px auto;}
+#sidebar {margin-left:74%}
+
+.photo_text {margin-left:110px}
+
+h1, h2 {margin:0}
+
+p {margin:0 0 .5em}
+
+h3 {margin: .5em 0 0}
+
+.date {margin:0 1em 0 0}
+
+.continued {margin-top:-5px}
+
+.entry {margin-bottom:2em;margin-right:1em}
+.entry h2 {margin:0}

@@ -1,0 +1,1 @@
+littlecat = new Image(143,83)littlecat.src = "real.jpg"bigcat = new Image(143,83)bigcat.src = "dream.jpg"

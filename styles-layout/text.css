@@ -1,0 +1,30 @@
+body {font: 95% "Trebuchet MS", Verdana, sans-serif;color:#B74E07}
+h1 {font-size:2.5em}        
+p {color:#1D3D76}
+
+.entry h2 {font-size:1.5em;
+    line-height:1;}
+    
+.date {font-size:70%;line-height:1;text-align:right}
+
+#sidebar {font-style:italic;font-size:80%}
+
+
+#footer {font-size:80%}
+
+.description {font-size:75%;
+       font-style:italic;}
+       
+.continued {text-align:right;
+ 			 font-size:75%;
+    	     font-style:italic;}
+    	     
+#navbuttons {text-align:right;font-size:75%}
+
+a:link {text-decoration: none;
+        color:#052254}
+a:visited {text-decoration: none;
+           color:#597DBD}
+a:focus, a:hover, a:active {text-decoration:underline}
+
+a:hover.current {text-decoration:none}

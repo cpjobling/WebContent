@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="bookstyle.xsl"?>
+<booklist>
+  <book genre="tragedy">
+    <title>Macbeth</title>
+    <author>
+      <firstname>William</firstname>
+      <lastname>Shakespeare</lastname>
+    </author>
+  </book>
+  <book genre="horror">
+    <title>Christine</title>
+    <author>
+      <firstname>Stephen</firstname>
+      <lastname>King</lastname>
+    </author>
+  </book>
+  <book genre="text-book">
+    <title>XHTML, XHTML &amp; CSS</title>
+    <author>
+      <firstname>Elizabeth</firstname>
+      <lastname>Castro</lastname>
+    </author>
+  </book>
+</booklist>

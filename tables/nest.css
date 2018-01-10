@@ -1,0 +1,18 @@
+body {font-family:"Trebuchet MS", Verdana, sans-serif;color:#006666}
+
+table, td {border:1px solid blue}
+table.rightsidebar, table.rightsidebar td {border:none}
+
+h1 {font-size:1.8em;white-space:nowrap}
+p {font-size:.9em}
+
+.rightsidebar {width:200px;float:right;border:none}
+
+.caption {font-size:.8em; font-style:italic; color:black}
+
+.toc {width:120px}
+
+.toc a:link {text-decoration:none;font-weight:bold}
+.toc a:visited {text-decoration:none;font-weight:normal}
+.toc a:hover {text-decoration:underline;font-weight:bold}
+.toc a:active {text-decoration:underline}

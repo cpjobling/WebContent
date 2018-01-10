@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Width</title>
+	<style>
+	div {width:300px; height:510px;background: yellow}
+	p.auto {width:auto; background: white; margin:10px; padding: 5px; border: 5px solid blue}
+	p {width:200px; background: white; margin:10px; padding: 5px; border: 5px solid purple}
+</style>
+</head>
+<body>
+
+<div class="parent">
+<p class="auto">This paragraph has a width set to "auto", a 10px margins, 5px padding, and 5px borders. Since the containing block is 300px, it should have a width of 300-10-10-5-5-5-5, or 260 pixels. Don't forget you have to subtract the margin, padding, and border from both the left and the right!<br />&nbsp;</p>
+
+<p>This paragraph has a width set to 200 pixels, with the same 10px margins, 5 px padding and 5px borders as the first paragraph. Since the containing block is 300px, the numbers don't work out, and the right margin is expanded to make up the difference (70 pixels, 10 it was assigned plus 60 extra). <em>In Internet Explorer 5, this box will incorrectly measure 200 pixels from the outside edge of the left border to the outside edge of the right border, and thus the right margin will expand to 90 pixels.</em> <br />&nbsp;</p>
+
+
+
+ 
+
+</body>
+</html>

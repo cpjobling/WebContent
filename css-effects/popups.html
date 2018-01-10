@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Expanding Photos</title>
+	<style type="text/css">
+	img.mini {border:none} /* no border around left column images */
+	div#minis a:hover {background:white} /* this seems to be necessary for it to work properly in IE6, I'm honestly not sure why */
+	div#minis a img.big {height: 0; width: 0; border-width: 0} /* hide the big image by making its height and width 0 */
+	div#minis a:hover img.big {position:absolute; top:18px; left:120px;height:375px;width:500px;border:none} /* make the big image appear in the same space as the frame at right when the visitor hovers over one of the image in left column */
+	
+	#frame {position:absolute; top:16px;left:118px;height:355px;width:480px;border:2px solid red;font: 1em "Trebuchet MS", Verdana, sans-serif;color:red;padding:10px} /* create an empty frame so that visitors expect something to go there */
+	p {margin-bottom:26px} /*add bottom margin to p elements so that they are (roughly) aligned with the big image frame */
+	</style>
+</head>
+<body>
+<div id="frame">
+<p>Click over the photos to enlarge them into this box.</p>
+</div>
+
+<div id="minis">
+<!--Notice that in each paragraph there are two copies of the image. The first will be used in the left column, the second will be revealed when the visitor hovers over the left column one -->
+<p><a class="photo" title="Boat on the rocks" href="http://www.flickr.com/photos/cookwood/187664726/"><img class="mini" src="http://static.flickr.com/68/187664726_5b9fb78a8e.jpg" width="100" height="75" alt="Boat on the rocks" /><img class="big" src="http://static.flickr.com/68/187664726_5b9fb78a8e.jpg" width="100" height="75" alt="Boat on the rocks" /></a></p>
+
+<p><a class="photo" title="Carcassone" href="http://www.flickr.com/photos/cookwood/139813914/"><img class="mini" src="http://static.flickr.com/49/139813914_d9b07e3709.jpg" width="100" height="75" alt="Carcassone" /><img class="big" src="http://static.flickr.com/49/139813914_d9b07e3709.jpg" width="100" height="75" alt="Carcassone" /></a></p>
+
+<p><a class="photo" title="Lemurs" href="http://www.flickr.com/photos/cookwood/167700314/"><img class="mini" src="http://static.flickr.com/73/167700314_f7a773f73d.jpg" width="100" height="75" alt="Lemurs" /><img class="big" src="http://static.flickr.com/73/167700314_f7a773f73d.jpg" width="100" height="75" alt="Lemurs" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/cookwood/142906227/" title="El Fossar de les Moreres"><img class="mini" src="http://static.flickr.com/45/142906227_6618fe9aec.jpg" width="100" height="75" alt="Al fossar no s'hi enterra cap traidor" /><img class="big" src="http://static.flickr.com/45/142906227_6618fe9aec.jpg" width="100" height="75" alt="Al fossar no s'hi enterra cap traidor" /></a></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

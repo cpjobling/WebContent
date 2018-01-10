@@ -1,0 +1,51 @@
+body {font-family:"Trebuchet MS", Verdana, sans-serif;color:#006666}
+
+table, td {border:none}
+
+h1 {	font-size:1.8em;
+		white-space:nowrap;
+		margin:10px 0 5px}
+
+p {		font-size:.9em;
+		margin:0 0 10px 0}
+
+.rightsidebar {width:200px;
+				float:right;
+				border:none;
+				background:#006666;
+				color:white;
+				margin:0 0 5px 10px}
+
+.caption {font-size:.8em; 
+			font-style:italic; 
+			color:black;
+			text-align:center;
+			padding:5px; 
+			margin:0; 
+			color:white}
+
+.toc {		vertical-align:top;
+			width:110px;
+			background:#339966 url(longerfish.jpg);
+			padding:25px 0 0 10px}
+
+.center {	text-align:center}
+.right {	text-align:right}
+.main {		vertical-align:top;
+			padding-left:10px}
+
+.logobar {	background:#ffff66}
+
+.toc a:link {	color:white;
+				text-decoration:none;
+				font-weight:bold}
+.toc a:visited {color:gray;
+				text-decoration:none;
+				font-weight:normal}
+.toc a:hover {	color:yellow;
+				text-decoration:underline;
+				font-weight:bold}
+.toc a:active {	color:yellow;
+				text-decoration:underline} 
+
+a:link.current {color:yellow}

@@ -1,0 +1,11 @@
+body {font-family: "Trebuchet MS", "Verdana", sans-serif}
+
+td {padding:4px 10px}
+
+caption {font-weight:bold;
+		color:#9A6016;
+		padding-bottom:5px}
+		
+.cities {background:#D1A367}
+
+.data {background:#F0E7DB;}

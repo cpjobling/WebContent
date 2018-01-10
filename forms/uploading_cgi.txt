@@ -1,0 +1,34 @@
+#!/usr/local/bin/perl -wT
+use strict;
+use CGI ':standard';
+
+print "Content-type: text/html\n\n";
+
+my $file = param ('uploadfile');
+my $info = uploadInfo ($file);
+my $type = $info -> {'Content-Type'};
+
+if ($file) {
+	open (UPLOAD, ">../../../tmp/uploadfile") || Error ();
+	
+	my ($data, $length, $chunk);
+	while ($chunk = read ($file, $data, 1024)) {
+		print UPLOAD $data;
+		$length += $chunk;
+		if ($length > 51200) {
+			print "That file is too big. The limit is 50K.";
+			exit;
+			}
+		}
+	close (UPLOAD);	
+	
+	print "<p>You uploaded <b>$file</b> which had a MIME type of <b>$type</b>.";
+
+} else {
+		print "No file was chosen.";	
+}
+
+sub Error {
+	print "Couldn't open temporary file: $!";
+	exit;
+	}

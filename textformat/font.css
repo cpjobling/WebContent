@@ -1,0 +1,11 @@
+
+h1, h2 {font: 20px "Arial Black", "Helvetica Bold", sans-serif}
+h2 {font-size:14 px}
+
+p {font: 12px/150% "Verdana", "Helvetica", sans-serif}
+
+.emph {font-style: italic; font-weight:bold}
+
+a:link, a:hover {font-weight:bold}
+
+#toc {font-size:12px}

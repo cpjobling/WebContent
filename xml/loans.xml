@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<loans 
+ xmlns:person="http://www.netskills.ac.uk/NS/person-ns"
+ xmlns:item="http://www.netskills.ac.uk/NS/books-ns">
+   <loan>
+
+    <person:details>
+     <person:title>Dr</person:title>
+     <person:firstname>John</person:firstname>
+     <person:lastname>Smith</person:lastname>
+    </person:details>
+
+    <item:book>
+     <item:title>Christine</item:title>
+     <item:author>
+       <item:firstname>Stephen</item:firstname>
+       <item:lastname>King</item:lastname>
+     </item:author>
+    </item:book>
+
+   </loan>
+</loans>

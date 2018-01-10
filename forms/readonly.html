@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Keeping Elements from Being Changed</title>
+</head>
+<body>
+
+<h2>Ready to vote?</h2>
+<p>Choose any option from the keyboard by pressing Alt (Ctrl for Macintosh) plus its first letter. So Alt-W/Ctrl-W would choose <em>Woody</em> (he's awful cute). (Use "T" for the comments box.)</p>
+
+<hr />
+
+<form action="http://www.cookwood.com/cgi-bin/vote.cgi" method="post" name="vote">
+<br />So far you've voted for 
+<p><textarea name="votehistory" cols="40" rows="3" readonly="readonly">Woody on Monday, Cookie on Tuesday, Xixona on Thursday, and Llumeta on Wednesday</textarea></p>
+<input type="radio" name="cats" value="W" accesskey="w" onclick="document.vote.submit.disabled=false" />Woody <br />
+<input type="radio" name="cats" value="C" accesskey="c" onclick="document.vote.submit.disabled=false" />Cookie <br />
+<input type="radio" name="cats" value="X" accesskey="x" onclick="document.vote.submit.disabled=false" />Xixona <br />
+<input type="radio" name="cats" value="L" accesskey="l" onclick="document.vote.submit.disabled=false" />Llumeta <br />
+<input type="radio" name="cats" value="A" accesskey="a" onclick="document.vote.submit.disabled=false" />All of them (Don't make me choose!) 
+<p><input name="submit" type="submit" value="Vote!" accesskey="v" disabled="disabled" />
+<input type="reset" value="Reset" accesskey="r" onclick="document.vote.submit.disabled=true" /></p>
+
+</form>
+</body>
+</html>

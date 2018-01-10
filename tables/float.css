@@ -1,0 +1,11 @@
+
+body {font-family:"Trebuchet MS", Verdana, sans-serif;color:#006666}
+
+table, td {border:none}
+
+h1 {font-size:1.8em;white-space:nowrap}
+p {font-size:.9em}
+
+.rightsidebar {width:200px;float:right}
+
+.caption {font-size:.8em;font-style:italic; color: black}

@@ -1,0 +1,21 @@
+body {font-family: "Trebuchet MS", "Verdana", sans-serif}
+
+table {border-color:#754F1D}
+td {padding:4px 10px}
+
+caption {font-weight:bold;
+		color:#9A6016;
+		padding-bottom:5px}
+		
+.cities {background:#D1A367}
+
+.data {background:#F0E7DB;}
+
+.totals {background:#F3D9B7}
+		
+
+.titles {text-align:center;
+background:#d1a367;
+		}
+		
+tbody {text-align:center}
